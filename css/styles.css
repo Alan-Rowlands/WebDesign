@@ -1,0 +1,331 @@
+.nav ul {
+  list-style: none;
+  background-color: #E84B0C;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 80px;
+  height: 80px;
+  border-bottom: 1px solid #888;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #E88B0C;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+    
+    @media screen and (min-width: 400px){
+        
+      #content {
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+        box-sizing: border-box;
+        width:  100%;
+        height: 500px;
+        font-size: 1.3em;
+    }
+    }
+    
+   #content {
+        
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+        box-sizing: border-box;
+        width:  1480px;
+        height: 600px;
+        font-size: 1.3em;
+    }
+    
+    #footer {
+        background-color: #FF2F0D;
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+        box-sizing: border-box;
+        width:  1480px;
+        height: 30px;
+        font-size: 1.3em;
+    }
+    
+    #footer p {
+        text-align: center;
+    }
+    
+    #content h1{
+        
+        background-color:#FF6E00;
+        
+    }
+    
+     #content h2{ 
+        margin-left: 10px;
+        background-color:#FF6E00;
+        width: 440px;
+    }
+    
+   
+    
+    #content p {
+        margin-left: 10px;
+    }
+    
+       #football {
+        text-align: left;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+        box-sizing: border-box;
+        width:  1480px;
+        height: 1750px;
+        font-size: 1.3em;
+    }
+    
+    #football p {
+        margin-left: 5px;
+        
+    }
+    
+    #boxing {
+        text-align: left;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+        box-sizing: border-box;
+        width:  1480px;
+        height: 900px;
+        font-size: 1.3em;
+    }
+    
+    #boxing p {
+        margin-left: 10px;
+    }
+    
+    #boxing h1{
+        margin-left: 10px;
+        margin-top: 8px;    
+    }
+    
+    #boxing h4{
+        margin-left: 8px;
+        background-color: #FF6E00;
+        height: 25px;
+        width: 120px;
+    }
+    
+    #boxing h3 {
+        margin-left: 10px;
+        background-color: #FF6E00;
+        width: 160px;
+    }
+    
+    #boxing h2{
+        margin-left: 10px;
+        margin-bottom: 10px;
+        height: 35px;
+        width: 450px;
+        background-color: #FF6E00;
+        
+    }
+    
+    #fight {
+        float: right;
+        margin-right: 20px;
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+    
+    #horse {
+               text-align: left;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+        box-sizing: border-box;
+        width:  1480px;
+        height: 1300px;
+        font-size: 1.3em;
+    } 
+    
+    #horse p {
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    
+    #horse h1 {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    
+    #horse h3 {
+        margin-left: 15px;
+    }
+    
+    #champ{
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    #sesh {
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+    
+    #fall {
+        float: right;
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+    
+    #derry {
+            text-align: left;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+        box-sizing: border-box;
+        width:  1480px;
+        height: 700px;
+        font-size: 1.3em;  
+    }
+    
+    #derry p {
+        margin-left: 10px;
+    }
+    
+    #derry h1 {
+        margin-left: 10px;
+    }
+    
+    #derry h2 {
+        margin-left: 15px; 
+    }
+    
+    #content img{
+        float: right;
+        
+    }
+    
+    #barca {
+        float: right;
+        margin-right: 10px;
+    }
+    
+ 
+    
+    #cavani {
+        float: left;
+        width: 300px;
+        height: 350px;
+        margin-left: 20px;
+        margin-right: 200px;
+    }
+    
+    #ryan1 {
+        float: right;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    #gaa {
+        
+        text-align: left;
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        padding: inherit;
+        box-sizing: border-box;
+        width:  1480px;
+        height: 1600px;
+        font-size: 1.3em;
+    }
+    
+    #gaa p {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    #gaa h1,h2 {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    
+    #ois {
+        float: right;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #ois2 {
+        float: left;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #head1 {
+         background-color:#FF6E00;
+         width: 210px;
+        margin-left: 10px;
+    }
+    
+     #head2 {
+         background-color:#FF6E00;
+         width: 330px;
+        margin-left: 10px;
+    }
+
+     #head3 {
+         background-color:#FF6E00;
+         width: 430px;
+        margin-left: 10px;
+    }
+    
+     #head4 {
+         background-color:#FF6E00;
+         width: 430px;
+        margin-left: 10px;
+    }
+    
+    #logo { 
+        height: 200px;
+        width: 150px;
+    }
+    
+    body {
+        background-color: #FFB20D
+    }
